@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+*env-vars.zip
+.env
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+test.log
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor files
+/.idea
+/.vscode
+
+# repo stats
+git_stats/**/*
+
+public/silent_renew.min.js
+.vs/
+/report.20200319.150752.26736.0.001.json
+/report.20200320.093436.16908.0.001.json
