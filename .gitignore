@@ -2,6 +2,7 @@
 *env-vars.zip
 .env
 
+.package-lock
 
 # dependencies
 /node_modules
