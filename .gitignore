@@ -2,8 +2,6 @@
 *env-vars.zip
 .env
 
-.package-lock
-
 # dependencies
 /node_modules
 /.pnp
@@ -38,3 +36,4 @@ public/silent_renew.min.js
 .vs/
 /report.20200319.150752.26736.0.001.json
 /report.20200320.093436.16908.0.001.json
+package-lock.json
