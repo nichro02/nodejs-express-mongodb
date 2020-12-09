@@ -6,15 +6,9 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express()
-/*
-Notice that we set origin: http://localhost:8081.
-– define a GET route which is simple for test.
-– listen on port 8080 for incoming requests.
-*/
-let corsOptions = {
-    origin: "http://localhost:8081"
-}
-app.use(cors(corsOptions))
+
+// use course middleware
+app.use(cors())
 
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
