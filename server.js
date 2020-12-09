@@ -31,6 +31,7 @@ app.listen(PORT, () => {
 
 /*
 ###### The routes we will be creating! #########
+###### You should have something like this in your readme so people know your routes that end up consuming your api #########
 
 Methods  	Urls	Actions
 GET   api/tutorials	get all Tutorials
